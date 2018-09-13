@@ -20,7 +20,7 @@ for i in range(numNodes):
     iface.component_id = "eth1"
     iface.addAddress(rspec.IPv4Address("192.168.1." + str(i + 1), "255.255.255.0"))
     link.addInterface(iface)
-    if i < 1:
+    if i == 0:
         node.routable_control_ip = True
 
 # Print the RSpec to the enclosing page.
