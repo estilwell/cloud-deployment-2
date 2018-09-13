@@ -1,4 +1,4 @@
-""" Cluster of 4 VMs running XenVM and CentOS7-64-STD for part 2 of assignment 2
+""" Cluster of 4 nodes running XenVM and CentOS7-64-STD for part 2 of assignment 2
 Instructions:
 Wait for the profile instance to start, then click on the node in the topology and choose the `shell` menu item. 
 """
